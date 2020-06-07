@@ -1,0 +1,31 @@
+GET http://localhost:3000/subscribers
+
+###
+
+POST  http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "sreehari",
+    "subscribedToChannel": "ghost bomber"
+}
+
+###
+
+GET http://localhost:3000/subscribers/:id
+
+###
+
+DELETE http://localhost:3000/subscribers/:id
+
+5edd240af5fc7443209a0180
+
+###
+
+PATCH http://localhost:3000/subscribers/:id
+Content-Type: application/json
+
+{
+    "name": "shyam",
+    "subscribedToChannel": "Debug Media"
+}
